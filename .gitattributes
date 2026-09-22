@@ -1,0 +1,10 @@
+# Keep repository text files consistent between macOS, Windows and WSL2.
+* text=auto eol=lf
+
+# Binary assets must never be line-ending converted.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary

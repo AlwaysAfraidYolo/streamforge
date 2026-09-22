@@ -13,3 +13,22 @@ htmlcov/
 .vscode/
 work/
 *.log
+
+# C++ / CMake build outputs
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+cmake_install.cmake
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Windows tooling
+.vs/
